@@ -1,6 +1,8 @@
-let topButton = document.getElementById("topBtn");
 let collapse = document.getElementsByClassName("collapsible");
 let mum = document.getElementById("mum");
+let topButton = document.getElementById("topBtn");
+let largeScreen = window.matchMedia("(min-width: 768px)");
+
 
 for (i = 0; i < collapse.length; i++) {
     collapse[i].addEventListener("click", change);
@@ -28,7 +30,7 @@ function swap(){
 }
 
 function scrollFunction(){
-    if(document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    if((document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) && largeScreen.matches) {
         topButton.style.display = "block";
     }else{
         topButton.style.display = "none";

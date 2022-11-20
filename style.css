@@ -569,11 +569,11 @@ footer img{
 
 
 #topBtn{
+    display: none;
     position: fixed;
     bottom: 30px;
     right: 30px;
     border: none;
-    display: none;
     background-color: #ffffff;
     width: 55px;
     height: 55px;
