@@ -508,8 +508,6 @@ main a{
 }
 
 
-
-
 .sayhi{
     text-align: center;
     padding: 80px 15px;
@@ -552,7 +550,6 @@ footer img{
     line-height: 23px;
     font-weight: 200;
     margin: 0;
-    /* transition: 0.3s; */
 }
 .mum::after{
     content: "Mum";
@@ -580,13 +577,6 @@ footer img{
     border-radius: 50%;
     box-shadow: 0px 8px 20px 0px rgb(0 0 0 / 10%);
 }
-
-
-
-
-
-
-
 
 
 
@@ -1348,6 +1338,3 @@ footer img{
         width: 830px;
     }
 }
-
-
-
